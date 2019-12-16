@@ -5,7 +5,7 @@ $(document).ready(function(){
 	/* ---- Countdown timer ---- */
 
 	$('#counter').countdown({
-		timestamp : (new Date()).getTime() + 08*10*60*60*1000
+		timestamp: (new Date("2020/03/21 12:00:00")).getTime()
 	});
 
 
